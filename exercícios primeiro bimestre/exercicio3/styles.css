@@ -1,0 +1,26 @@
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.reset-btn {
+    background-color: red;
+    color: white;
+}
+.toggle-btn {
+    background-color: blue;
+    color: white;
+}
+#toggle-paragraph {
+    display: none;
+    margin-top: 20px;
+    font-size: 18px;
+}
