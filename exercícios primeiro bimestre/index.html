@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Placares</title>
+</head>
+<body>
+    <h1>Escolha o Jogo e Insira as Informações Necessárias</h1>
+
+    <label for="jogos">Jogos:</label>
+    <select id="jogos" name="jogos" required>
+        <option value="">Select</option>
+        <option value="Volei">Volei</option>
+        <option value="Basquete">Basquete</option>
+        <option value="Beach Tennis">Beach Tennis</option>
+    </select>
+
+    <label for="time1">Time1:</label>
+    <input type="text" id="time1">
+
+    <label for="time2">Time2:</label>
+    <input type="text" id="time2">
+
+    <label for="juiz">Juiz:</label>
+    <input type="text" id="juiz">
+
+    <input type="button" value="Criar Placar" onclick="irPara()">
+</body>
+</html>
